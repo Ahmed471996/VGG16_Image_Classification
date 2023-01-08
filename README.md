@@ -13,9 +13,11 @@ VGG focuses on another crucial aspect of Convolutional Neural Networks (CNNs), d
 
 
 ## Dataset
-we'll be using the CIFAR-100 dataset. This dataset is just like the CIFAR-10, except it has 100 classes containing 600 images each. There are 500 training images and 100 testing images per class. The 100 classes in the CIFAR-100 are grouped into 20 superclasses. Each image comes with a "fine" label (the class to which it belongs) and a "coarse" label (the superclass to which it belongs). We'll be using the "fine" label here. Here's the list of classes in the CIFAR-100:
+Let's start by loading and then pre-processing the data. For our purposes, we will be using the CIFAR10 dataset. The dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
-![image](https://user-images.githubusercontent.com/101316217/210460412-4a5caada-b6e1-4896-8126-e701954369e5.png)
+Here are the classes in the dataset, as well as 10 random sample images from each:
+
+![image](https://user-images.githubusercontent.com/101316217/211200710-2d7d1bbf-0375-4061-bf24-08eba1423d50.png)
 
 
 ## Tools
